@@ -1,0 +1,25 @@
+form{
+	display: grid;
+	grid-template-columns: 200px 1fr;
+	grid-gap: 30px;
+	padding: 30px;
+	background-color: #a59b9b4a;
+}
+label{
+	grid-column: 2 / 3;
+}
+input{
+	width: 1650px;
+	height: 50px;
+	grid-column: 2 / 3;
+}
+button{
+	grid-column: 2 / 3;
+	background-color: darkgrey;
+}
+textarea{
+	grid-row: 1 / 4;
+}
+button:hover{
+	background-color: lightblue;
+}

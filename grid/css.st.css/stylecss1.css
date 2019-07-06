@@ -1,0 +1,21 @@
+.parent{ 
+	display: grid; 
+	grid-template-columns: 1fr 1fr;
+	grid-auto-rows: 400px;
+
+}
+.child1{
+	background-color: lightblue;
+}
+.child2{
+
+	background-color: yellow;
+}
+.child3{
+
+	background-color: purple;
+}
+.child4{
+
+	background-color: pink;
+}

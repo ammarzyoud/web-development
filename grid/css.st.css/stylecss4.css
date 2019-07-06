@@ -1,0 +1,28 @@
+.container{
+	display: grid;
+	height: 900px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+}
+.header{
+	grid-column: 1 /span 4;
+	background-color: yellow;
+}
+.nav{
+	grid-row: 2 /span 4;
+	background-color: yellow;
+}
+.article{
+	grid-column: 2 /span 2;
+	grid-row: 2/span 2;
+	background-color: yellow;
+}
+.ads{
+	grid-row: 2 /span 2;
+	background-color: yellow;
+}
+.footer{
+	grid-column: 2 /span 3;
+	background-color: yellow;
+}
