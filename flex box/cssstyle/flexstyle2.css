@@ -1,0 +1,27 @@
+.parent{
+	width: 500px;
+	height: 200px;
+	display: flex;
+	padding: 100px 400px 100px 400px;
+	border: 1px solid lightblue;
+	align-content: center;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+a{
+	width: 90px;
+	height: 5px;
+	padding: 7px;
+	border: 1px solid ;
+	text-align: center;
+	background-color: lightblue;
+
+
+}
+body{
+	background-color: lightblue;
+}
+.child{
+	direction: flex;
+}

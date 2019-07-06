@@ -1,0 +1,44 @@
+.parent{
+	height: 900px;
+	width: 1850px;
+	display: flex;
+	background-color: lightgrey;
+	flex-flow: column wrap;
+	flex-direction: column wrap;
+	align-items: center;
+	justify-content: space-around;
+	margin: 0 0 0 0;
+}
+.items{
+	width: 200px;
+	border: 1px solid pink;
+	text-align: center;
+	margin: 10px;
+	padding: 5px 5px 5px 5px;
+	background-color: white;
+	background-image: url(/home/ammar/Desktop/project/img/splitred.jpeg);
+}
+.item4{
+	width: 400px;
+	height: 200px;
+	border: 1px solid blue;
+	text-align: center;
+	margin: 10px;
+	padding: 5px 5px 5px 5px;
+	background-color: white;
+	background-image: url(/home/ammar/Desktop/project/img/lowa.jpg);
+}
+.item5{
+	width: 400px;
+	height: 200px;
+	border: 1px solid blue;
+	text-align: center;
+	margin: 10px;
+	padding: 5px 5px 5px 5px;
+	background-color: white;
+	background-image: url(/home/ammar/Desktop/project/img/lowa.jpg);
+}
+button:hover{
+	color: white;
+	background: lightblue;
+}

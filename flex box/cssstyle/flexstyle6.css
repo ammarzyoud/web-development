@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    color: grey;
+}
+.profiles {
+	display: flex;
+    flex-grow: 1;
+    flex: 1 1 30%;
+    height: 100px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+nav{
+	font-size:20px;
+	letter-spacing: 27px;
+	color: grey;
+}
